@@ -1,0 +1,42 @@
+
+.main_class{
+    display: flex;
+    flex-wrap: wrap;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:60px;
+}
+.reply_button {
+    border: 3px double black;
+    margin: 10px;
+    float: right;
+    padding: 10px;
+}
+.result {
+    margin : 20px;
+    font-size: 40px;
+    color: blue;
+}
+
+
+.row {
+    display: inline-grid;
+    grid-template-columns: 130px 130px 130px;
+    grid-template-rows: 130px 130px 130px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin: 10px;
+}
+
+div[class^="column"] {
+    display: flex;
+    justify-content: center;
+    font-size: 120px;
+    background-color: lightcoral;
+    border : 1px solid black;
+ }
+
+ div[class^="columnDisabled"] {
+    background-color: gray;
+ }
